@@ -2,9 +2,9 @@
 
 Welcome to my **NumPy Practice** repository!
 
-This repository contains my learning journey with **NumPy**, the fundamental library for numerical computing in Python. It includes well-organized examples, hands-on practice programs, and essential concepts required for **Data Analytics**, **Data Science**, and **Machine Learning**.
+This repository documents my learning journey with **NumPy**, the fundamental Python library for numerical computing. It contains well-structured Jupyter Notebooks covering NumPy concepts from beginner to intermediate level with explanations, examples, and hands-on practice.
 
-The purpose of this repository is to build a strong foundation in NumPy through practical coding examples and structured learning.
+The goal of this repository is to build a strong foundation for **Data Analytics**, **Data Science**, and **Machine Learning**.
 
 ---
 
@@ -12,29 +12,39 @@ The purpose of this repository is to build a strong foundation in NumPy through 
 
 ### 🟢 NumPy Fundamentals
 - Introduction to NumPy
-- Installing NumPy
+- Installation
 - Importing NumPy
+- NumPy Version
 - Creating Arrays
+- Python Lists vs NumPy Arrays
 
 ### 📦 Array Creation
 - 1D Arrays
 - 2D Arrays
 - 3D Arrays
+- Special Arrays
 - Array Data Types
 
 ### 🔍 Array Operations
+- Array Attributes
 - Indexing
 - Slicing
-- Iteration
-- Copy vs View
 - Reshaping
 - Flattening
+- Copy vs View
 
-### 📊 Mathematical Operations
+### ➕ Mathematical Operations
 - Arithmetic Operations
 - Universal Functions (ufuncs)
-- Aggregation Functions
-- Statistical Functions
+- Broadcasting
+
+### 📊 Statistical Functions
+- Sum
+- Mean
+- Median
+- Standard Deviation
+- Variance
+- Min & Max
 
 ### 🎲 Random Module
 - Random Numbers
@@ -45,18 +55,19 @@ The purpose of this repository is to build a strong foundation in NumPy through 
 ### 🔄 Sorting & Searching
 - Sorting Arrays
 - Searching Elements
+- Boolean Indexing
 - Filtering Arrays
 
 ### 📈 Linear Algebra
 - Matrix Operations
 - Dot Product
-- Transpose
 - Matrix Multiplication
+- Transpose
 
 ### 📝 Practice Programs
-- Beginner Exercises
-- Intermediate Problems
 - Assignment Solutions
+- Practice Questions
+- Real-world Examples
 
 ---
 
@@ -68,21 +79,21 @@ numpy-practice/
 ├── README.md
 ├── requirements.txt
 │
-├── 01_numpy_basics.py
-├── 02_array_creation.py
-├── 03_special_arrays.py
-├── 04_array_attributes.py
-├── 05_array_indexing.py
-├── 06_array_slicing.py
-├── 07_array_reshaping.py
-├── 08_array_operations.py
-├── 09_broadcasting.py
-├── 10_math_functions.py
-├── 11_statistical_functions.py
-├── 12_sort_search_filter.py
-├── 13_random_module.py
-├── 14_practice_programs.py
-└── 15_mini_projects.py
+├── 01_numpy_basics.ipynb
+├── 02_array_creation.ipynb
+├── 03_special_arrays.ipynb
+├── 04_array_attributes.ipynb
+├── 05_array_indexing.ipynb
+├── 06_array_slicing.ipynb
+├── 07_array_reshaping.ipynb
+├── 08_array_operations.ipynb
+├── 09_broadcasting.ipynb
+├── 10_math_functions.ipynb
+├── 11_statistical_functions.ipynb
+├── 12_sort_search_filter.ipynb
+├── 13_random_module.ipynb
+├── 14_practice_programs.ipynb
+└── 15_mini_projects.ipynb
 ```
 
 ---
@@ -92,24 +103,30 @@ numpy-practice/
 After completing this repository, you will be able to:
 
 - Understand NumPy fundamentals.
-- Create and manipulate NumPy arrays.
+- Create and manipulate multidimensional arrays.
 - Perform mathematical and statistical operations efficiently.
-- Work with multidimensional arrays.
-- Prepare data for Data Analysis and Machine Learning.
-- Build a strong foundation for Pandas and Scikit-learn.
+- Work with array indexing, slicing, and reshaping.
+- Apply NumPy in data preprocessing.
+- Build a strong foundation for Pandas and Machine Learning.
 
 ---
 
 ## 🛠️ Requirements
 
 - Python 3.x
+- Jupyter Notebook / JupyterLab
 - NumPy
-- Visual Studio Code (or any Python IDE)
 
 Install NumPy using:
 
 ```bash
 pip install numpy
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
 ```
 
 ---
@@ -122,16 +139,22 @@ Clone the repository:
 git clone https://github.com/your-username/numpy-practice.git
 ```
 
-Navigate to the project folder:
+Go to the project folder:
 
 ```bash
 cd numpy-practice
 ```
 
-Run a Python file:
+Open Jupyter Notebook:
 
 ```bash
-python 01_numpy_basics.py
+jupyter notebook
+```
+
+Start with:
+
+```text
+01_numpy_basics.ipynb
 ```
 
 ---
@@ -144,13 +167,17 @@ python 01_numpy_basics.py
 
 ## 🎯 Future Improvements
 
-- More practice programs
-- Mini projects
-- Interview questions
+- More practice notebooks
+- Interview-focused questions
+- Mini Projects
 - Real-world datasets
-- Performance comparisons
-- Best coding practices
+- Performance optimization examples
+- Visualization with Matplotlib
 
 ---
+
+## 🤝 Connect With Me
+
+If you find this repository useful, feel free to ⭐ the repository and explore my other Data Science learning repositories.
 
 Happy Learning! 🚀
